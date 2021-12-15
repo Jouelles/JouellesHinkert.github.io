@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+    
+    Starting Page sample for final project - for educational purposes, all content is fictional 
+    Author: Jouelles Hinkert
+	Term and Year: Spring - 2021
+
+    Filename: Tourist Board.html
+   -->
+     <meta name="keywords" content="Tourist, Destination, Motel, Curacao" />
+   <title>Tourist Board</title>
+   <link href="css/base.css" rel="stylesheet" />
+   <link href="css/layout.css" rel="stylesheet" />
+   
+  
+</head>
+
+<body>
+   <header>
+      <a href="index.html"><img src="images/tb_logo.png" alt="Logo" /></a>
+      <nav>
+         <ul>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <h1> <center>Contact US</center> </h1>
+<center>
+	<form> 
+	
+	<center>Name</center>
+		<div class="formRow">
+			 <label for="firstname"></label>
+			 <input name="custName" id="name" type="text" placeholder="First name" />
+		</div>
+		
+	<center>Last Name</center>
+		<div class="formRow">
+			<label for="lastname"></label>
+			<input name="custName" id="name" type="text" placeholder="Last name" />
+		</div>
+	<center>E-Mail</center>
+		<div class="formRow">
+			<label for="mail"></label>
+			<input name="custEmail" id="mail" type="email" placeholder ="John@hotmail.com" />
+		</div>
+	<center>Phone Number</center>
+		<div class="formRow">
+			<label for="phone"></label>
+			<input name="custPhone" id="phone" type="tel" placeholder ="(xxx) xxx-xxxx"/>
+		</div>
+		
+	<center>Street</center>
+		<div class="formRow">
+			<label for="street"></label>
+			<input name="custStreet" id="street" type="text" placeholder ="3rd street."/>
+		</div>
+		
+	<center>City</center>
+		<div class="formRow">
+			<label for="city"></label>
+			<input name="custCity" id="city" type="text" placeholder =" Peru "/>
+		</div>
+		
+		<center>Date of last Visit</center>
+		<div class="formRow">
+			<label for="visit"></label>
+			<input name="visitDate" id="visit" type="date"/>
+		</div>
+		
+		<label for="commBox">Tell us more about your experience at Curacao Tourist Board</label>
+		<textarea name="custExp"></textarea>
+		
+		<div id="buttons">
+			<input type="submit" value="Submit Information" />
+			<input type="reset" value="cancel" />
+		</div>
+	
+	</form>
+</center>
+	
+   <footer>
+      Curacao Tourist Board &#9832; Willemstad, Curacao, Kokomo beach, &nbsp;7858      
+   </footer>
+</body>
+</html>
